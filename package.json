@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "node --test",
+    "test": "node --test --import ./tests/loader.ts",
     "build": "tsgo -p tsconfig.build.json"
   },
   "repository": {
@@ -25,6 +25,10 @@
   "homepage": "https://github.com/ye-yu/node-typescript-no-transpiler-template#readme",
   "devDependencies": {
     "@types/node": "^22.19.19",
-    "@typescript/native-preview": "^7.0.0-dev.20260511.1"
+    "@typescript/native-preview": "^7.0.0-dev.20260511.1",
+    "diff": "^9.0.0"
+  },
+  "dependencies": {
+    "after": "^0.8.2"
   }
 }

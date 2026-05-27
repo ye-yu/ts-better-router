@@ -1,0 +1,17 @@
+Index: file.txt
+===================================================================
+--- file.txt
++++ file.txt
+@@ -1,10 +1,9 @@
+ 'use strict'
+ 
+ var after = require('after');
+-var express = require('../')
+-  , Router = express.Router
+-  , methods = require('../lib/utils').methods
++var Router = globalThis.Router
++  , methods = globalThis.methods
+   , assert = require('node:assert');
+ 
+ describe('Router', function () {
+   it('should return a function with router methods', function () {
