@@ -6,5 +6,6 @@
         "erasableSyntaxOnly": true,
         "verbatimModuleSyntax": true,
         "types": ["node"]
-    }
+    },
+    "exclude": ["dist"]
 }
