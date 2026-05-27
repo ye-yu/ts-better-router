@@ -1,0 +1,30 @@
+{
+  "name": "node-typescript-no-transpiler-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "build": "tsgo -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ye-yu/node-typescript-no-transpiler-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ye-yu/node-typescript-no-transpiler-template/issues"
+  },
+  "homepage": "https://github.com/ye-yu/node-typescript-no-transpiler-template#readme",
+  "devDependencies": {
+    "@types/node": "^22.19.19",
+    "@typescript/native-preview": "^7.0.0-dev.20260511.1"
+  }
+}
