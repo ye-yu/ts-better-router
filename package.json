@@ -26,9 +26,8 @@
   "devDependencies": {
     "@types/node": "^22.19.19",
     "@typescript/native-preview": "^7.0.0-dev.20260511.1",
-    "diff": "^9.0.0"
-  },
-  "dependencies": {
-    "after": "^0.8.2"
+    "after": "^0.8.2",
+    "diff": "^9.0.0",
+    "path-to-regexp": "^8.4.2"
   }
 }
